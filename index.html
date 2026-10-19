@@ -504,6 +504,15 @@ td.nd{color:var(--n400);font-style:italic}
 .case .bd{display:flex;flex-direction:column;flex:1}
 .case .acts{margin-top:auto}
 .case ul{flex:0 0 auto}
+
+/* casos: bloque de acciones homologado */
+.case .bd > .tx{font-size:15px;margin-top:10px;min-height:66px}
+.case .bd > .small{min-height:38px}
+.case ul{min-height:132px}
+.case .acts{margin-top:auto;display:grid;grid-template-columns:1fr 1fr;gap:9px;align-content:end;padding-top:16px}
+.case .acts .btn{justify-content:center;text-align:center;padding:10px 10px;font-size:13px}
+.case .acts .vid-btn{grid-column:1 / -1}
+@media(max-width:1060px){.case .bd > .tx,.case .bd > .small,.case ul{min-height:0}}
 </style>
 </head>
 <body>
@@ -1735,19 +1744,17 @@ td.nd{color:var(--n400);font-style:italic}
             <div class="roi"><div class="v num">8<sup>:1</sup></div><div class="l">ROI publicado</div></div>
           </div>
           <div class="bd">
-            <p class="small"><b>Manufactura industrial</b> · Hornos industriales y sistemas de recuperación de calor · Nuevo León</p>
-            <p class="tx" style="font-size:15px;margin-top:10px">El caso más cercano a esta tesis: una planta que ya sabía fabricar y cuyo cuello de botella estaba del lado comercial.</p>
+            <p class="small"><b>Manufactura</b> · Hornos industriales y sistemas de recuperación de calor · Nuevo León</p>
+            <p class="tx">El caso más cercano a esta tesis: una planta que ya sabía fabricar y cuyo cuello de botella estaba del lado comercial.</p>
             <ul>
-              <li>Inteligencia comercial y gestión de prospectos implantadas</li>
-              <li>Modelo de gestión del embudo por unidad de negocio</li>
-              <li>Mejora de 111 % en creación de prospectos de venta</li>
-              <li>Aumento de 86 % en propuestas captadas por mercadotecnia</li>
-              <li>Disminución de 15 % en sobrecostos de proyecto</li>
-              <li>Aprovechamiento del inventario remanente de proyectos</li>
+              <li>Modelo de gestión comercial unificado y sistematizado</li>
+              <li>Aumento de 142 % en leads captados por marketing y comercial</li>
+              <li>Aumento de 60 % en propuestas semanales por venta cruzada</li>
+              <li>Disminución de 15 % en desviaciones presupuestales</li>
             </ul>
             <div class="acts">
-              <a class="btn p" href="https://londoncg.mx/growth-stories" target="_blank" rel="noopener">Caso de éxito</a>
-              <a class="btn" href="https://news.londoncg.com/hubfs/Growth%20Series%20LP/clientes/cartas_de_recomendacion/Nutec_Bickley.pdf" target="_blank" rel="noopener">Carta de recomendación</a>
+              <a class="btn p" href="https://londoncg.mx/hubfs/Growth%20Series%20LP/clientes/casos_de_exito/CASO_DE_EXITO-NUTEC.pdf?hsLang=es-mx" target="_blank" rel="noopener">Caso de éxito</a>
+              <a class="btn" href="https://londoncg.mx/hubfs/Growth%20Series%20LP/clientes/cartas_de_recomendacion/Nutec_Bickley.pdf?hsLang=es-mx" target="_blank" rel="noopener">Carta de recomendación</a>
             </div>
           </div>
         </div>
@@ -1758,18 +1765,18 @@ td.nd{color:var(--n400);font-style:italic}
             <div class="roi"><div class="v num">5.8<sup>:1</sup></div><div class="l">ROI publicado</div></div>
           </div>
           <div class="bd">
-            <p class="small"><b>Autopartes</b> · Marca mexicana de filtración y lubricantes con red de distribución independiente · Nuevo León</p>
-            <p class="tx" style="font-size:15px;margin-top:10px">Portafolio amplio vendido a través de un canal fragmentado que el fabricante no controla: la misma geometría comercial que el canal ferretero.</p>
+            <p class="small"><b>Autopartes</b> · Filtración y lubricantes con red de distribución independiente · Nuevo León</p>
+            <p class="tx">Portafolio amplio vendido por un canal fragmentado que el fabricante no controla: la misma geometría comercial que el canal ferretero.</p>
             <ul>
               <li>Programa Lean 4.0 sobre eficiencia operativa</li>
               <li>Reducción de costos y mayor competitividad</li>
               <li>Caso narrado por un accionista y miembro del consejo</li>
-              <li>Documentado en video en la temporada 1 de Growth Stories</li>
+              <li>Episodio 1 de la temporada 1 de Growth Stories</li>
             </ul>
             <div class="acts">
-              <a class="btn p" href="https://londoncg.mx/growth-stories" target="_blank" rel="noopener">Caso de éxito</a>
-              <a class="btn" href="https://news.londoncg.com/es/growth-stories-temporada-1" target="_blank" rel="noopener">Ver video</a>
-              <a class="btn" href="https://londoncg.mx/growth-stories" target="_blank" rel="noopener">Carta de recomendación</a>
+              <a class="btn p" href="https://news.londoncg.com/hubfs/Growth%20Series%20LP/pdf/GHONER_OnePager.pdf" target="_blank" rel="noopener">Caso de éxito</a>
+              <a class="btn" href="https://londoncg.mx/hubfs/Growth%20Series%20LP/clientes/cartas_de_recomendacion/Gonher.pdf?hsLang=es-mx" target="_blank" rel="noopener">Carta de recomendación</a>
+              <a class="btn vid-btn" href="https://www.youtube.com/watch?v=S4rCRkebOrk" target="_blank" rel="noopener">&#9658; Ver video</a>
             </div>
           </div>
         </div>
@@ -1780,18 +1787,17 @@ td.nd{color:var(--n400);font-style:italic}
             <div class="roi"><div class="v num">6.3<sup>:1</sup></div><div class="l">ROI publicado</div></div>
           </div>
           <div class="bd">
-            <p class="small"><b>Manufactura</b> · Fabricación de telas, confección y comercialización de prendas · Estado de México</p>
-            <p class="tx" style="font-size:15px;margin-top:10px">Incluido en el mismo episodio de Lean 4.0 que Gonher, con foco en productividad, calidad y eficiencia en piso de planta.</p>
+            <p class="small"><b>Textil</b> · Fabricación de telas, confección y comercialización de prendas · Estado de México</p>
+            <p class="tx">Manufactura con planta propia ordenada con Lean 4.0: productividad, calidad y eficiencia medidas donde ocurre el trabajo.</p>
             <ul>
               <li>Lean 4.0 aplicado a la operación de manufactura</li>
               <li>Agilidad, tecnología y estrategia en un mismo programa</li>
               <li>Caso narrado por un accionista y director de operaciones</li>
-              <li>Documentado en video en la temporada 1 de Growth Stories</li>
+              <li>Gestión de rentabilidad por pedido y costo de fabricación</li>
             </ul>
             <div class="acts">
-              <a class="btn p" href="https://londoncg.mx/growth-stories" target="_blank" rel="noopener">Caso de éxito</a>
-              <a class="btn" href="https://news.londoncg.com/es/growth-stories-temporada-1" target="_blank" rel="noopener">Ver video</a>
-              <a class="btn" href="https://londoncg.mx/growth-stories" target="_blank" rel="noopener">Carta de recomendación</a>
+              <a class="btn p" href="https://news.londoncg.com/hubfs/Growth%20Series%20LP/pdf/BECKTEL_OnePager.pdf" target="_blank" rel="noopener">Caso de éxito</a>
+              <a class="btn" href="https://londoncg.mx/hubfs/Growth%20Series%20LP/clientes/cartas_de_recomendacion/Becktel.pdf?hsLang=es-mx" target="_blank" rel="noopener">Carta de recomendación</a>
             </div>
           </div>
         </div>
